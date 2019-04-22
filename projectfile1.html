@@ -24,8 +24,8 @@
 		{"place":"Birth_Place","coords":[30.677453, 75.828275]},
         {"place":"Home","coords":[43.752168, -79.771606]},
         {"place":"Recently_visited","coords":[43.593410, -79.642321]},
-        {"place":"Glacier","coords":[48.7596, -113.7870]},
-        {"place":"Glacier","coords":[48.7596, -113.7870]}
+        {"place":"Hometown","coords":[30.552408, 75.889506]},
+        {"place":"Want_To_Go","coords":[49.142040, -122.815382]}
 		];
 
 	function initMap() {
@@ -45,7 +45,7 @@
 		var marker = new google.maps.Marker({
 			position: latLng,
 			map: map,
-			label:results[i].park
+			label:results[i].place
 			});
 		}
 	}
